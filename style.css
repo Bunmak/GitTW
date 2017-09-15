@@ -1,0 +1,45 @@
+body {
+   /* background-color: lightblue;*/
+   /*background-image: url("1.jpg");*/
+   opacity: 0.5;
+   filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 40px;
+}
+
+body:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+div {
+	  border-radius: 40px;
+    width: 270px;
+    padding: 10px;
+    border: 7px solid blue;
+    margin: 0;
+    background-color: yellow; 
+}
+
+a:hover {
+	color: #99FF00;
+}
+
+.fullscreen-block{
+  background-image: url("1.jpg");
+ /* -webkit-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;*/
+  background-size: 100%;
+  
+}
+

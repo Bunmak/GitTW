@@ -1,0 +1,38 @@
+table, td{
+  /*border: 2px solid red;*/
+  font-size: 30px;
+  height: 50px;
+  color: white;
+}
+th{
+	font-size: 40px;
+}
+body{
+	background-image: url(001.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+a{
+	font-size: 26px;
+}
+a:link {
+    color:blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
